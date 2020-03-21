@@ -1,3 +1,7 @@
+/*
+First Approach: O(N) time :O(1) space
+Second approach:Time: O(log N) space: O(1)
+*/
 class Solution {
     public int hIndex(int[] citations) {
         if(citations == null || citations.length == 0) return 0;
@@ -10,7 +14,7 @@ class Solution {
         return 0;
     }
 }
-
+// ===================== Binary search ==============================
 
 class Solution {
     public int hIndex(int[] citations) {
